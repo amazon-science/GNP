@@ -45,7 +45,7 @@ mv data_preprocessed data
 ```
 
 #### (Optional) Download/Preprocess Original Unprocessed Data
-If you would like to preprocess the raw data from scratch, please refer to the python scripts in the folder ```customized_data_preprocess```:
+If you would like to preprocess the raw data from scratch, please refer to the python scripts in the folder ```data_preprocess```:
 ```
 CUDA_VISIBLE_DEVICES=0 python arc_preprocess.py -p <num_processes>
 ```
@@ -57,7 +57,7 @@ The script will:
 
 
 
-## 3. Run Graph Neural Prompting (GNP)
+## 2. Run Graph Neural Prompting (GNP)
 To run GNP on various datasets, simply refer to the training scripts in the folder ```scripts/```
 ```
 sh scripts/llm_obqa.sh
@@ -69,7 +69,9 @@ sh scripts/llm_bioasq.sh
 ```
 hyper-parameters and utilized model components can be adjusted within each training script.
 
-## 4. Reference
+Scripts for baselines, ablation studies, and model design comparisons are also provided.
+
+## 3. Reference
 
 ```
 @inproceedings{tian2024graph,
