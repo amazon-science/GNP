@@ -169,7 +169,7 @@ tornado==6.1
 tqdm==4.65.0
 traitlets==5.9.0
 transaction==3.1.0
-transformers==4.30.2
+transformers==4.48.0
 translationstring==1.4
 triton==2.0.0
 typer==0.7.0
