@@ -181,7 +181,7 @@ venusian==3.0.0
 wandb==0.15.4
 wasabi==0.10.1
 wcwidth==0.2.6
-WebOb==1.8.7
+WebOb==1.8.8
 wheel==0.38.4
 wrapt==1.15.0
 WTForms==3.0.1
