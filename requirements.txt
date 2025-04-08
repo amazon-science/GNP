@@ -27,7 +27,7 @@ conllu==4.5.3
 contextlib2==21.6.0
 contourpy==1.1.0
 cryptacular==1.6.2
-cryptography==39.0.1
+cryptography==43.0.1
 cycler==0.11.0
 cymem==2.0.7
 datasets==2.13.1
